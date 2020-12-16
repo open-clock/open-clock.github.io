@@ -1,2 +1,1 @@
-# open-clock.github.io
-Open Source Web Clock
+# Open Source Web Clock
