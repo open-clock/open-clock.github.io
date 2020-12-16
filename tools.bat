@@ -10,7 +10,7 @@ if "%tool%"=="push" (
     git push -u origin master
     echo push - Š®—¹B
 ) else if "%tool%"=="reset" (
-    git fetch lainan master
+    git fetch origin master
     git reset --hard origin/master
     echo reset - Š®—¹B
 ) else (
