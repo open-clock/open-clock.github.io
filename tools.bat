@@ -7,7 +7,7 @@ if "%tool%"=="push" (
     set /p msg="メッセージを選んでください。Message > "
     git add .
     git commit -m "!msg!"
-    git push -u origin main
+    git push -u origin
     echo push - 完了。
 ) else if "%tool%"=="reset" (
     git fetch origin main
