@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64mm"
+   height="64mm"
+   viewBox="0 0 64 64"
+   version="1.1"
+   id="svg40"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="type_one.svg">
+  <title
+     id="title109">Opne Clock Type One</title>
+  <defs
+     id="defs34">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient58">
+      <stop
+         style="stop-color:#e6e6e6;stop-opacity:1;"
+         offset="0"
+         id="stop54" />
+      <stop
+         style="stop-color:#ececec;stop-opacity:1"
+         offset="1"
+         id="stop56" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient48">
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="0"
+         id="stop44" />
+      <stop
+         style="stop-color:#999999;stop-opacity:1"
+         offset="1"
+         id="stop46" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient48"
+       id="linearGradient50"
+       x1="0"
+       y1="0"
+       x2="64"
+       y2="64"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient58"
+       id="linearGradient60"
+       x1="0"
+       y1="-0.07381776"
+       x2="64"
+       y2="64"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.7921387"
+     inkscape:cx="69.141331"
+     inkscape:cy="76.244594"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata37">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Opne Clock Type One</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+    <circle
+       style="fill:url(#linearGradient50);stroke-width:0.681305;fill-opacity:1"
+       id="path42"
+       cx="32"
+       cy="32"
+       r="32" />
+    <circle
+       style="fill:url(#linearGradient60);stroke-width:0.554948;fill-opacity:1"
+       id="path52"
+       cx="32"
+       cy="32"
+       r="30" />
+    <rect
+       style="fill:#333333;stroke-width:0.154826"
+       id="rect62"
+       width="2"
+       height="8"
+       x="31"
+       y="4"
+       ry="1.12" />
+    <rect
+       style="fill:#333333;stroke-width:0.154826"
+       id="rect62-3"
+       width="2"
+       height="8"
+       x="31"
+       y="52"
+       ry="1.12" />
+    <rect
+       style="fill:#333333;stroke-width:0.154826"
+       id="rect62-8"
+       width="2"
+       height="8"
+       x="-33"
+       y="52"
+       ry="1.12"
+       transform="rotate(-90)" />
+    <rect
+       style="fill:#333333;stroke-width:0.154826"
+       id="rect62-8-6"
+       width="2"
+       height="8"
+       x="-33"
+       y="4"
+       ry="1.12"
+       transform="rotate(-90)" />
+</svg>
