@@ -32,7 +32,7 @@
         .clock-back {
             width: 90%;
             height: 90vh;
-            position:relative;
+            position: relative;
             top: 5vh;
         }
     </style>
@@ -41,8 +41,17 @@
 <body class="blue-grey darken-1 blue-grey-text text-lighten-5 flow-text">
     <h1>Open Clock</h1>
     <div class="clock center-align">
-        <img src="./clocks/type_one.svg" class="clock-back" onclick="document.getElementsByClassName('clock')[0].requestFullscreen()" />
+        <img src="./clocks/type_one.svg" class="clock-back" onclick="tfs()" />
     </div>
+    <script>
+        function tfs() {
+            if (document.fullscreenElement) {
+                document.exitFullscreen();
+            } else {
+                document.getElementsByClassName('clock')[0].requestFullscreen();
+            }
+        }
+    </script>
 
     <div>
         <small class="nanotext">ご利用になる前に、<a class="modal-trigger" href="#tos">利用規約</a>をお読みください</small>
