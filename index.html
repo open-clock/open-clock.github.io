@@ -9,10 +9,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems, {});
+        });
+    </script>
+    <style>
+        .tos {
+            border: none;
+            width: 100%;
+            height: 99%;
+        }
+
+        .nanotext {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+    </style>
 </head>
 
-<body class="blue-grey darken-1 blue-grey-text text-lighten-5">
-    <h1>工事中...</h1>
+<body class="blue-grey darken-1 blue-grey-text text-lighten-5 flow-text">
+    <h1>Open Clock</h1>
+
+    <div>
+        <small class="nanotext">ご利用になる前に、<a class="modal-trigger" href="#tos">利用規約</a>をお読みください</small>
+        <small class="nanotext"><br>このプログラムの仕組みを<a href="https://github.com/open-clock/open-clock.github.io/">Github</a>で見る</small>
+    </div>
+    <div id="tos" class="modal modal-fixed-footer blue-grey-text text-lighten-5">
+        <div class="modal-content">
+            <iframe src="./tos.html" class="tos"></iframe>
+        </div>
+        <div class="modal-footer blue-grey lighten-4">
+            <a href="#!" class="modal-close waves-effect btn-flat">Close</a>
+        </div>
+    </div>
 </body>
 
 </html>
